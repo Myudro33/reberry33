@@ -1,0 +1,133 @@
+
+
+
+
+.hidden2{
+    display: none;
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.hidden{
+    display: none;
+    margin-top: 40px;
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+.right h3{
+    font-family: Montserrat;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 200%;
+    width: 480px;
+    margin-top: 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #0C0D0E 0%, #151718 73.44%);
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    height: 15px;
+    margin: 70px auto;
+}
+.buttons button{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: none;
+    margin: 5px;
+    background-color: rgb(243, 214, 219);
+    cursor: default !important;
+}
+#b3{
+    background-color: #FE3B1F;
+}
+#b2{
+    background-color: #FE3B1F;
+}
+#b1{
+    background-color: #FE3B1F;
+}
+i{
+    color: #FE3B1F;
+    cursor: pointer;
+}
+.fa-calendar-days{
+    position: absolute  !important;
+    margin-top: 5px;
+    margin-left: -25px;
+    color: #FE3B1F;
+}
+#date2{
+    margin: 0;
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+#date{
+    margin: 0;
+    width: 90%;
+    height: 30px;
+    background-color: transparent;
+    border: 1px solid gray;
+    padding-left: 20px;
+}
+#yes{
+    margin-top: 15px;
+}
+.secondP{
+    margin-top: 40px;
+}
+#sairme{
+    margin-top: 15px;
+}
+.left label{
+    font: 1rem 'Fira Sans', sans-serif;
+}
+.left input{
+    margin: .6rem;
+}
+p{
+    font-family: Montserrat;
+    font-size: 18px;
+}
+h1{
+    color: #FE3B1F;
+    font-size: 45px;
+    font-family: Rowdies;
+    font-weight: 300;
+    padding-top: 50px;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: auto;
+    margin-top: 70px;
+}
+.left{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+*{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="covid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Covid</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left">
+            <h1>Covid Stuff</h1>
+            <div class="questions">
+                <p>how would you prefer to work?</p>
+                <div>
+                    <input type="radio" id="sairme" name="work" value="From Sairme Office">
+                    <label for="sairme">From Sairme Office</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="home" name="work" value="From Home">
+                    <label for="home">From Home</label>
+                  </div>
+                  <div>
+                    <input type="radio" id="hybrid" name="work" value="Hybrid">
+                    <label for="hybrid">Hybrid</label>
+                  </div>
+                <p class="secondP">Did you contact covid 19? :(</p>
+                <div class="if">
+                <div>
+                    <input type="radio" id="yes" name="contact" value="Yes">
+                    <label for="yes">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="contact" value="No">
+                    <label for="no">No</label>
+                </div>
+                </div>
+                <div class="hidden">
+                    <p class="when">When?</p>
+                <input  type="datetime-local" id="date" placeholder="Date"  >
+                <i class="fa-solid fa-calendar-days"></i>
+                </div>
+                <p class="secondP">Have you been vaccinated?</p>
+                <div class="if2">
+                <div>
+                    <input type="radio" id="ki" name="vaccine" value="Yes">
+                    <label for="ki">Yes</label>
+                </div>
+                <div>
+                    <input type="radio" id="ara" name="vaccine" value="No">
+                    <label for="ara">No</label>
+                </div>
+                </div>
+                <div class="hidden2">
+                <p class="when">When did you get your last covid vaccine?</p>
+                <input  type="datetime-local" id="date2" placeholder="Date"  >
+                <i class="fa-solid fa-calendar-days"></i>
+            </div>
+                <div class="buttons">
+                    <i class="fa-solid fa-circle-arrow-left"></i>
+                    <button id="b1"></button>
+                    <button id="b2"></button>
+                    <button id="b3"></button>
+                    <button id="b4"></button>
+                    <button id="b5"></button>
+                    <i type="submit" class="fa-solid fa-circle-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Redberry Covid Policies</h1>
+            <h3>As this infamous pandemic took over 
+                the world, we adjusted our working 
+                practices so that our employees can be as
+                safe and comfortable as possible. 
+                We have a hybrid work environment, 
+                so you can either work from home or 
+                visit our lovely office on Sairme Street.
+                If it was up to us, we would love you to 
+                see us in the office because we think 
+                face-to-face communications > Zoom meetings. 
+                Both on the fun and productivity scales.</h3>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="covid.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
